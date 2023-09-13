@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'dir/dir'
   get 'expressions/expressions'
   get 'say/hello'
   get 'say/goodbye'
