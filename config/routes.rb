@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'expressions/expressions'
   get 'say/hello'
   get 'say/goodbye'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
