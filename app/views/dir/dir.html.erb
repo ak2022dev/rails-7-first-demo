@@ -1,6 +1,5 @@
 <h1>Directory</h1>
 Directory listing is <br>
-<% @files=Dir.glob("*") %> <br>
 <% @files.each do |file| %>
   file name is <%= file %> <br>
 <% end %>
